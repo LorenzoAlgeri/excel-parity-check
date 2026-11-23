@@ -1,0 +1,10 @@
+[
+  {
+    "id": "KD-1",
+    "sheets": ["Seniors", "Club total"],
+    "columns": ["Sponsors", "Total"],
+    "rows": ["Week 4", "Month total", "Variance vs budget"],
+    "delta": -2000,
+    "reason": "Sponsor payment of week 4 was recorded in the ledger after this file was generated. The next file includes it."
+  }
+]

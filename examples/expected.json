@@ -1,0 +1,18 @@
+{
+  "_about": "Invented budget of a small amateur rowing club, one month. Stands in for the database: these are the values the file must show.",
+  "sheets": {
+    "Youth": {
+      "Membership fees": {"weeks": [3000, 1000, 1000, 0], "budget": 6000},
+      "Events":          {"weeks": [0, 2000, 0, 1000],    "budget": 4000},
+      "Sponsors":        {"weeks": [1000, 0, 0, 2000],    "budget": 2000}
+    },
+    "Seniors": {
+      "Membership fees": {"weeks": [4000, 2000, 0, 1000], "budget": 6000},
+      "Events":          {"weeks": [1000, 0, 3000, 0],    "budget": 5000},
+      "Sponsors":        {"weeks": [0, 1000, 0, 2000],    "budget": 2000}
+    }
+  },
+  "totals": {
+    "Club total": ["Youth", "Seniors"]
+  }
+}
